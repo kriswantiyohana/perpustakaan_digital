@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PostController;
+use App\Http\Controllers\UserController;
 
-// Membuat semua rute CRUD untuk PostController
-Route::resource('posts', PostController::class);
+// Rute Resource untuk User
+Route::resource('users', UserController::class);
