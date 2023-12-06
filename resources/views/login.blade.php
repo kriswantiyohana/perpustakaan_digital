@@ -18,6 +18,10 @@
         border: solid 1px;
         padding: 30px;
     }
+    
+    form div{
+        margin-bottom: 20px;
+    }
 </style>
 <body>
     <div class="main d-flex justify-content-center align-items-center">
@@ -31,6 +35,16 @@
                 <div>
                     <label for="password" class="form-label"> Password</label>
                     <input type="password" name="password" id="password" class="form-control">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary form-control">Login
+                        
+                    </button>
+                    </div>
+                <div class="text-center">
+                    <a href='register'> Sign up
+                    </a>
+                
                 </div>
             </div>
     </div>
